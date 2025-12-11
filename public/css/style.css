@@ -1,0 +1,59 @@
+h3 {
+    background-color: brown;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+h1{
+    color: black;
+}
+
+form {
+    border-style: solid;
+    border-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+
+
+table, tr, td, th {
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+table{
+    margin-bottom: 100px;
+}
+
+div {
+    background-color: chocolate;
+}
+
+
+.h1-merah {
+    color: red;
+}
+
+.h1-biru {
+    color: blue;
+}
+
+#h1-id{
+    background-color: crimson;
+}
+
+
+p:hover {
+    background-color: blue;
+}
+
+
+.div-1 p:first-child{
+    color: chartreuse;
+}
+
+.div-2 p:last-child{
+    color: cornflowerblue;
+}
