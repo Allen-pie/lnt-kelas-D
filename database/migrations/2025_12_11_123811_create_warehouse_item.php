@@ -13,11 +13,12 @@ return new class extends Migration
     {
         Schema::create('warehouse_item', function (Blueprint $table) {
             $table->id();
-
-
             $table->integer('quantity');
-            
+
+
             $table->foreignId('item_id')->constrained();
+
+            
             $table->foreignId('warehouse_id')->constrained();
             $table->timestamps();
         });
